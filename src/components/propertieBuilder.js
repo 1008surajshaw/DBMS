@@ -21,7 +21,7 @@ export default function CourseInformationForm ()  {
     }= useForm()
  
     
-     const navigate = useNavigate
+     const navigate = useNavigate();
     const dispatch =useDispatch()
     const { token } =useSelector((state) =>state.auth)
    
